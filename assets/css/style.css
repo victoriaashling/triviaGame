@@ -49,8 +49,9 @@ button#restart:hover {
 }
 
 #game-name {
-    font-size: 5rem;
+    font-size: 4rem;
     margin: .5em;
+    font-family: Monoton, cursive;
 }
 
 #time-remaining {
