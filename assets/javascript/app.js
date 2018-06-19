@@ -1,33 +1,33 @@
 var triviaQuestions = [
     {
-        question: "Who is the youngest von Trapp child in The Sound of Music?",
+        question: "Who is the youngest von Trapp child in <em>The Sound of Music</em>?",
         answers: ["Liesl", "Marta", "Gretl", "Louisa"],
         correct: "Gretl",
         answerMessage: "The youngest von Trapp child in Gretl."
     },
     {
-        question: "Who does Jane Eyre fall in love with?",
-        answers: ["Mr. Brocklehurst", "Mr. Rochester", "Mr. Collins", "Mr. Thornton"],
-        correct: "Mr. Rochester",
-        answerMessage: "Jane Eyre falls in love with Mr. Rochester."
-    },
-    {
-        question: "In what key does Lina Lamont (Kathy Seldon) sing the titular song at the end of Singing in the Rain?",
+        question: "In what key does Lina Lamont (Kathy Seldon) sing the titular song at the end of <em>Singing in the Rain</em>?",
         answers: ["A flat", "D sharp", "C", "E flat"],
         correct: "A flat",
         answerMessage: "Lina Lamont (Kathy Seldon) sings in A flat."
     },
     {
-        question: "Which of Elizabeth Bennet's sisters elopes with the disastrously dashing Mr. Wickham in Pride and Prejudice?",
-        answers: ["Lydia", "Jane", "Mary", "Kitty"],
-        correct: "Lydia",
-        answerMessage: "Lydia Bennet is the sister who runs off with Mr. Wickham."
-    },
-    {
-        question: "Which man stars in The Court Jester?",
+        question: "Which man stars in <em>The Court Jester</em>?",
         answers: ["Gregory Peck", "Howard Keel", "Gene Kelly", "Danny Kaye"],
         correct: "Danny Kaye",
-        answerMessage: "Danny Kaye stars in The Court Jester."
+        answerMessage: "Danny Kaye stars in <em>The Court Jester</em>."
+    },
+    {
+        question: "In <em>Kismet</em>, Marcina wants to plant what kind of flower in her garden?",
+        answers: ["Hyacinths", "Lillies", "Orange Blossoms", "Roses"],
+        correct: "Hyacinths",
+        answerMessage: "Marcina wants to plant Hyacinths (or perhaps Oleander)."
+    },
+    {
+        question: "Which famous jazz musician makes a cameo appearance in <em>Hello, Dolly!</em>?",
+        answers: ["Sidney Bechet", "Louis Armstrong", "Benny Goodman", "Duke Ellington"],
+        correct: "Louis Armstrong",
+        answerMessage: "Louis Armstrong appears in the titular song of <em>Hello, Dolly!</em>"
     }
 ]
 
@@ -71,7 +71,7 @@ function displayQuestion() {
     currentCorrect = workingQ.correct;
     currentMessage = workingQ.answerMessage;
 
-    questionDiv.text(workingQ.question);
+    questionDiv.html(workingQ.question);
     answersDiv.empty();
     
     for (var i = 0; i < workingQ.answers.length; i++) {
