@@ -1,33 +1,33 @@
 var triviaQuestions = [
     {
-        question: "What's my mother's middle name?",
-        answers: ["Mary", "Ashling", "Maria", "Graham"],
-        correct: "Mary",
-        answerMessage: "My mother's middle name is Mary."
+        question: "Who is the youngest von Trapp child in The Sound of Music?",
+        answers: ["Liesl", "Marta", "Gretl", "Louisa"],
+        correct: "Gretl",
+        answerMessage: "The youngest von Trapp child in Gretl."
     },
     {
-        question: "What is the small black dog's name?",
-        answers: ["Thantos", "Smokey", "Ollie", "Lillie"],
-        correct: "Smokey",
-        answerMessage: "The small black dog's name is Smokey."
+        question: "Who does Jane Eyre fall in love with?",
+        answers: ["Mr. Brocklehurst", "Mr. Rochester", "Mr. Collins", "Mr. Thornton"],
+        correct: "Mr. Rochester",
+        answerMessage: "Jane Eyre falls in love with Mr. Rochester."
     },
     {
-        question: "What color are the cat's eyes?",
-        answers: ["Brown and Yellow", "Green and Yellow", "Brown and Blue", "Green and Blue"],
-        correct: "Green and Blue",
-        answerMessage: "The cat's eyes are green and blue."
-    },
-    {
-        question: "What is mom currently knitting?",
-        answers: ["socks", "a sweater", "a baby blanket", "a scarf"],
-        correct: "a baby blanket",
-        answerMessage: "Mom is currently knitting a baby blanket."
+        question: "In what key does Lina Lamont (Kathy Seldon) sing the titular song at the end of Singing in the Rain?",
+        answers: ["A flat", "D sharp", "C", "E flat"],
+        correct: "A flat",
+        answerMessage: "Lina Lamont (Kathy Seldon) sings in A flat."
     },
     {
         question: "Which of Elizabeth Bennet's sisters elopes with the disastrously dashing Mr. Wickham in Pride and Prejudice?",
         answers: ["Lydia", "Jane", "Mary", "Kitty"],
         correct: "Lydia",
         answerMessage: "Lydia Bennet is the sister who runs off with Mr. Wickham."
+    },
+    {
+        question: "Which man stars in The Court Jester?",
+        answers: ["Gregory Peck", "Howard Keel", "Gene Kelly", "Danny Kaye"],
+        correct: "Danny Kaye",
+        answerMessage: "Danny Kaye stars in The Court Jester."
     }
 ]
 
