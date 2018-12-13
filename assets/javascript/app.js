@@ -3,7 +3,7 @@ var triviaQuestions = [
         question: "Who is the youngest von Trapp child in <em>The Sound of Music</em>?",
         answers: ["Liesl", "Marta", "Gretl", "Louisa"],
         correct: "Gretl",
-        answerMessage: "The youngest von Trapp child in Gretl."
+        answerMessage: "The youngest von Trapp child is Gretl."
     },
     {
         question: "In what key does Lina Lamont (Kathy Seldon) sing the titular song at the end of <em>Singing in the Rain</em>?",
@@ -126,7 +126,7 @@ function displayAnswer() {
     clearInterval(timer);
     
     timeDiv.empty();
-    answersDiv.text(currentMessage);
+    answersDiv.html(currentMessage);
 
     setTimeout(function() {
         
